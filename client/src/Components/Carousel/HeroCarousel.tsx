@@ -37,10 +37,10 @@ const HeroCarousel: React.FC<Props> = ({ imgs }) => {
           />
         ))}
       <figcaption className='w-full'>
-        <button className='absolute left-0 top-1/2 transform translate-y-[-80%] border-0 p-4 flex justify-center items-center cursor-pointer' onClick={handlePrevious}>
+        <button className='absolute left-1 bg-white rounded-full top-1/2 transform translate-y-[-80%] border-0 p-2 flex justify-center items-center cursor-pointer' onClick={handlePrevious}>
           <BiSolidChevronLeft size={20} />
         </button>
-        <button className='absolute right-0 top-1/2 transform translate-y-[-80%] border-0 p-4 flex justify-center items-center cursor-pointer' onClick={handleNext}>
+        <button className='absolute right-1 bg-white rounded-full top-1/2 transform translate-y-[-80%] border-0 p-2 flex justify-center items-center cursor-pointer' onClick={handleNext}>
           <BiSolidChevronRight size={20} />
         </button>
       </figcaption>
